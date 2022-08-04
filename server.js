@@ -23,10 +23,10 @@ const CACHE_RATIO = 0.5
 const TREE_CACHE_SIZE = TOTAL_CACHE_SIZE * CACHE_RATIO
 const DATA_CACHE_SIZE = TOTAL_CACHE_SIZE * (1 - CACHE_RATIO)
 
-const DEFAULT_STORAGE_DIR = path.join(os.homedir(), '.hyperspace', 'storage')
+const DEFAULT_STORAGE_DIR = path.join(os.homedir(), '.datomspace', 'storage')
 const MAX_PEERS = 256
 const SWARM_PORT = 49737
-const NAMESPACE = '@hypercore-protocol/hyperspace'
+const NAMESPACE = 'datomspace'
 
 module.exports = class Hyperspace extends Nanoresource {
   constructor (opts = {}) {

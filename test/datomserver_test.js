@@ -6,18 +6,18 @@
 
 const { Server : datomsServer } = require('../')
 
-
+const datomSpaceServer = 'test_datomSpaceServer'
 
 async function start () {
 
   const Server = new datomsServer( {
     storage: './datomspace',
-    host: '118.195.143.126'
+    host: datomSpaceServer
 })
 
   await Server.ready()
 
-  console.log('datomServer(118.195.143.126) are ready...')
+  console.log(`${datomSpaceServer} are ready...`)
 
   //todo: 以后添加verboes功能
   // Print client connection/disconnection events.
