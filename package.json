@@ -14,7 +14,7 @@
   "license": "MIT",
   "dependencies": {
     "@corestore/networker": "^1.0.3",
-    "datomspace-client": "^1.0.0",
+    "@hyperspace/client": "^1.18.0",
     "@hyperspace/migration-tool": "^1.1.2",
     "datomspace-rpc": "^1.0.0",
     "corestore": "^5.7.3",
