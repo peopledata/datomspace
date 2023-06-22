@@ -1,6 +1,6 @@
 {
   "name": "datomspace",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "datoms space, a datoms server and a datoms marketpalce",
   "main": "index.js",
   "scripts": {
