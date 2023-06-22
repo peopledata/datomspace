@@ -374,7 +374,7 @@ $ curl -X GET -H "Content-Type: application/json" -d '{"private_key":"1f8c336d87
 [{"name":"jerry ZZZ","bank":"bank of china","account":"1234","balance":"1000000"},{"name":"jerry ZZZ","bank":"ICBC","account":"5678","balance":"2000000"}]
 ```
 
-
+*上述示例代码在`test`中。*
 
 
 
